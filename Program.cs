@@ -64,6 +64,14 @@ class Program
 
         Car1.Engine petrolEngine = new Car1.Engine();
         petrolEngine.displayEngine();
+
+        Rectangle1 rectangle1 = new Rectangle1();
+        rectangle1.calculateArea(10, 5);
+
+        Overloading1 overloading1 = new Overloading1();
+        overloading1.display("str");
+        overloading1.display(10);
+        overloading1.display(10, 20);
     }
 }
 
@@ -128,7 +136,6 @@ class Rectangle : RegularPolygon
         Console.WriteLine("Area of Rectangle: " + area);
     }
 }
-
 
 
 // sealed class Human // when we don't want a class to be inherited by another class, we can declare the class as a sealed class.
